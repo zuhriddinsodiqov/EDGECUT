@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+a{
+    color: black;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+
+}
+.header .navigation {
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+}
+.header .navigation .navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header .navigation .navbar .logo a{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.header .navigation .navbar a , i{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+.banner{
+    width: 100%;
+    height: 90vh;
+}
+.banner h1{
+    width: 70%;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.banner .container{
+    background-color: whitesmoke;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.banner button{
+    padding: 15px  2rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border: 00;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.banner button:first-of-type{
+    background-color: orangered;
+}
+.banner button:first-of-type:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+.banner button:last-of-type{
+    background-color: blue;
+}
+.banner button:last-of-type:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.our{
+    width: 100%;
+    padding: 2rem 0;
+}
+.our .title h2{
+    color: black;
+    font-size:2rem;
+    margin-bottom: 1rem;
+}
+.our__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.our__content .item{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+.our__content .item .img img{
+    width: 80%;
+    height: 80%;
+    transform: scale(0.8);
+}
+.our__content .item a{
+     color: blue;
+}
+.about .container{
+    width: 100%;
+    padding: 4rem 1rem;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.about button{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: rgb(0, 92, 92);
+    border: 0;
+    color: white;
+    transition: all 0.5s linear;
+}
+.about button:hover{
+    background-color: white;
+    border:1px solid rgb(0, 92, 92);
+    color: aqua;
+}
+.footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: black;
+}
+.footer .title{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .title .box {
+    text-align: center;
+}
+.footer .title .box a{
+    color: white;
+}
+.footer h2{
+    margin-bottom: 2rem;
+
+}
+.footer a,h2{
+    color: white;
+
+}
+.footer .title .box a:hover{
+    color: chocolate;
+}
+.footer__content .item1 a{
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    transition: all 0.5s linear;
+}
+.footer__content .item1 a:hover{
+    color: chocolate;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.footer__content .box .item{
+    display: inline;
+    gap: 2rem;
+    margin-top: 1rem ;
+}
+.footer__content .box .item img{
+    width: 30%;
+    height: 30%;
+    display: inline-block;    
+}
+.footer__content .item  form input{
+    width: 90%;
+    height: 7vh;
+    text-indent: 10px;
+    border: 0;
+    outline: 0;
+    background-color: whitesmoke;
+}
+.footer__content .item  form button{
+    padding: 10px 1rem;
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    border: 0;
+    background-color: aqua;
+    color: whitesmoke;
+    display: block;
+    margin-bottom: 1rem;
+    transition: all 0.3s linear;
+}
+.footer__content .item  form button:hover{
+    background-color: black;
+    border: 1px solid aqua;
+    color: aqua;
+}
